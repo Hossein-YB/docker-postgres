@@ -16,13 +16,13 @@ django 4.1.3
 
 
 #set this code in settings  
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'db',
-        'PORT': 5432
-    }
-}
+DATABASES = {</br>
+    'default': {</br>
+        'ENGINE': 'django.db.backends.postgresql',</br>
+        'NAME': 'postgres',</br>
+        'USER': 'postgres',</br>
+        'PASSWORD': 'postgres',</br>
+        'HOST': 'db',</br>
+        'PORT': 5432</br>
+    }</br>
+}</br>
