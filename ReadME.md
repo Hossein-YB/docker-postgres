@@ -16,8 +16,8 @@ django 4.1.3
 
 
 #set this code in settings  
-
-```DATABASES = {
+```
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
@@ -26,9 +26,9 @@ django 4.1.3
         'HOST': 'db',
         'PORT': 5432
     }
-}```
-
+}
+```
 #<h4>app accounts for custome user model</h4>
 
 set in settings file this varible
-```AUTH_USER_MODEL = 'accounts.CustomUser'```
+``` AUTH_USER_MODEL = 'accounts.CustomUser' ```
