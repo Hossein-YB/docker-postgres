@@ -28,7 +28,7 @@ DATABASES = {
     }
 }
 ```
-#<h4>app accounts for custome user model</h4>
+<h4>app accounts for custome user model</h4>
 
-set in settings file this varible
+set in settings file this varible </br>
 ``` AUTH_USER_MODEL = 'accounts.CustomUser' ```
